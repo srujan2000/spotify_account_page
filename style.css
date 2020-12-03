@@ -1,0 +1,426 @@
+body{
+    overflow-x: hidden;
+}
+
+#head img{
+   margin-left: 620px;
+   margin-top: -10px;
+   height: 120px;
+   width:200px; 
+}
+
+hr{
+    margin-top: -10px;
+}
+
+#button{
+    margin-top: 10px;
+}
+
+.container{
+   margin-top: 40px;
+   display: flexbox;
+   flex-direction: column;
+   margin-left: 540px;
+   margin-right: 540px;
+}
+
+
+.container h1{
+    margin-left: 100px;
+    color: #222326;
+    font-family: circular-spotify-ui,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 1.1;
+}
+
+.fa-facebook{
+    margin-right: 10px;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
+    color: #3b5998;
+}
+
+#facebook-btn{
+    width: 450px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-right: 50px;
+    padding-left: 60px;
+    border: none;
+    border-radius: 500px;
+    outline: none;
+    text-transform: uppercase;
+    background-color: #3b5998;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: circular-spotify-ui,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#facebook-btn a{
+    text-decoration: none;
+}
+
+
+
+#apple-btn{
+    width: 450px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-right: 90px;
+    padding-left: 60px;
+    border: none;
+    border-radius: 500px;
+    outline: none;
+    text-transform: uppercase;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: circular-spotify-ui,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.fa-apple{
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+#apple-btn a{
+    text-decoration: none;
+}
+
+.google{
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+#google-btn{
+    width: 450px;
+    height: 58.6px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-right: 60px;
+    padding-left: 60px;
+    border-radius: 500px;
+    outline: none;
+    border: 2px solid #616467;
+    text-transform: uppercase;
+    background-color: white;
+    color: #616467;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: circular-spotify-ui,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#google-btn a{
+    text-decoration: none;
+}
+
+#google-btn:hover{
+    background-color: #616467;
+   color: #ffffff;
+}
+
+#phone-btn{
+    width: 450px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-right: 60px;
+    padding-left: 60px;
+    border-radius: 500px;
+    outline: none;
+    border: 2px solid #616467;
+    text-transform: uppercase;
+    background-color: white;
+    color: #616467;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: circular-spotify-ui,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#phone-btn:hover{
+   background-color: #616467;
+   color: #ffffff;
+}
+
+
+.form{
+    display: block;
+    margin-left: 550px;
+    margin-right: 480px;
+    margin-top: 50px;
+    font-family: circular-spotify-ui,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.username{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222326;
+    font-weight: 700;
+}
+
+.form-email{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 440px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #616467;
+    border: 1px solid #d9dadc;
+    letter-spacing: 0.3px;
+}
+
+.password{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222326;
+    font-weight: 700;
+}
+
+.form-password{
+    margin-top: 5px;
+    width: 440px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #616467;
+    border: 1px solid #d9dadc;
+    letter-spacing: 0.3px;
+}
+.forgot{
+    color: #616467;
+    text-decoration: underline;
+    letter-spacing: 0.5px;
+}
+
+.forgot:hover{
+    color: #15883e;
+}
+
+.checking{
+    margin-top: 10px;
+    font-family: circular-spotify-ui,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #616467;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.check{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#login{
+    width: 210px;
+    margin-left: 10px;
+    border: none;
+    background-color: #15883E;
+    padding: 16px 14px 18px;
+    border-radius: 500px;
+    outline: none;
+    margin-left: 100px;
+   
+}
+
+#login a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+#login:hover{
+    background-color: #15883E;
+    opacity: 80%;
+}
+
+#dont{
+    font-family: circular-spotify-ui,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-top: 40px;
+    margin-left: 110px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+
+#signup{
+    width: 470px;
+    border: 2px solid #616467;
+    padding: 15px 0px 15px 0px;
+    background-color: #ffffff;
+    border-radius: 500px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #616467;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: circular-spotify-ui,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+#signup:hover{
+    background-color: #616467;
+    color: #ffffff;
+}
+
+
+@media (max-width: 502px) {
+    #head img{
+        margin-left: 144px;
+        margin-top: -10px;
+        height: 80px;
+        width: 125px; 
+     }
+    .container{
+        margin-top: 40px;
+        display: flexbox;
+        flex-direction: column;
+        margin-left: 1px;
+        margin-right: 8px;
+     }
+
+     #facebook-btn{
+         width: 425px;
+     }
+
+     #apple-btn{
+        width: 425px;
+     }
+
+     #google-btn{
+        width: 425px;
+     }
+
+     #phone-btn{
+        width: 425px;
+     }
+
+     .form{
+        margin-left: 8px;
+        margin-right: 8px;
+     }
+
+     .form-email{
+         width: 400px;
+     }
+
+     .form-password{
+        width: 400px;
+    }
+
+    #login{
+        margin-top: 20px;
+        margin-left: 8px;
+        width: 400px;
+    }
+     
+     #signup{
+         width: 400px;
+     }
+  }
+
+
+  @media only screen and (max-width: 376px) {
+    #head img{
+        margin-left: 124px;
+        margin-top: -10px;
+        height: 80px;
+        width: 125px; 
+     }
+    .container{
+        margin-top: 40px;
+        display: flexbox;
+        flex-direction: column;
+        margin-right: 2px;
+     }
+
+     .container h1{
+        margin-left: 50px;
+     }
+
+     #facebook-btn{
+         width: 340px;
+         padding-left: 15px;
+         padding-right: 15px;
+     }
+
+     #apple-btn{
+        width: 340px;
+        padding-left: 15px;
+        padding-right: 15px;
+     }
+
+     #google-btn{
+        width: 340px;
+        padding-left: 15px;
+        padding-right: 15px;
+     }
+
+     #phone-btn{
+        width: 340px;
+        padding-left: 15px;
+        padding-right: 15px;
+     }
+
+     .form{
+        margin-left: 8px;
+        margin-right: 8px;
+     }
+
+     .form-email{
+         width: 320px;
+     }
+
+     .form-password{
+        width: 320px;
+    }
+
+    #login{
+        margin-top: 20px;
+        margin-left: 8px;
+        width: 320px;
+    }
+
+    #dont{
+        margin-left: 50px;
+        margin-right: 20px;
+    }
+     
+     #signup{
+         width: 320px;
+     }
+  }
+
+
+
+
+
