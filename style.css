@@ -3,7 +3,8 @@ body{
 }
 
 #head img{
-   margin-left: 620px;
+   margin: auto;
+   display: block;
    margin-top: -10px;
    height: 120px;
    width:200px; 
@@ -18,16 +19,14 @@ hr{
 }
 
 .container{
+   text-align: center;
    margin-top: 40px;
-   display: flexbox;
-   flex-direction: column;
-   margin-left: 540px;
-   margin-right: 540px;
+   display: grid;
+   grid-template-columns: 100%;
 }
 
 
 .container h1{
-    margin-left: 100px;
     color: #222326;
     font-family: circular-spotify-ui,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 16px;
@@ -47,6 +46,7 @@ hr{
 }
 
 #facebook-btn{
+    margin: auto;
     width: 450px;
     padding-top: 20px;
     padding-bottom:20px;
@@ -72,6 +72,7 @@ hr{
 
 
 #apple-btn{
+    margin: auto;
     width: 450px;
     margin-top: 20px;
     padding-top: 20px;
@@ -111,11 +112,12 @@ hr{
 }
 
 #google-btn{
+    margin: auto;
     width: 450px;
     height: 58.6px;
     margin-top: 20px;
     padding-top: 20px;
-    padding-bottom:20px;
+    padding-bottom:30px;
     padding-right: 60px;
     padding-left: 60px;
     border-radius: 500px;
@@ -141,6 +143,7 @@ hr{
 }
 
 #phone-btn{
+    margin: auto;
     width: 450px;
     margin-top: 20px;
     padding-top: 20px;
@@ -167,14 +170,14 @@ hr{
 
 
 .form{
+    text-align: center;
     display: block;
-    margin-left: 550px;
-    margin-right: 480px;
     margin-top: 50px;
     font-family: circular-spotify-ui,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 .username{
+    display: block;
     font-size: 16px;
     line-height: 1.5;
     color: #222326;
@@ -182,11 +185,13 @@ hr{
 }
 
 .form-email{
+    margin: auto;
+    display: block;
     margin-top: 5px;
     margin-bottom: 10px;
     width: 440px;
     height: 40px;
-    padding-left: 10px;
+    padding-left: 2px;
     font-size: 16px;
     color: #616467;
     border: 1px solid #d9dadc;
@@ -194,6 +199,7 @@ hr{
 }
 
 .password{
+    display: block;
     font-size: 16px;
     line-height: 1.5;
     color: #222326;
@@ -201,10 +207,12 @@ hr{
 }
 
 .form-password{
+    margin: auto;
+    display: block;
     margin-top: 5px;
     width: 440px;
     height: 40px;
-    padding-left: 10px;
+    padding-left: 2px;
     font-size: 16px;
     margin-bottom: 40px;
     color: #616467;
@@ -229,9 +237,10 @@ hr{
     line-height: 1.5;
 }
 .check{
+    text-align: center;
     height: 20px;
     width: 20px;
-    margin-right: 10px;
+    
     margin-top: 10px;
 }
 
@@ -263,9 +272,9 @@ hr{
 }
 
 #dont{
+    /* text-align: center; */
     font-family: circular-spotify-ui,Helvetica Neue,Helvetica,Arial,sans-serif;
     margin-top: 40px;
-    margin-left: 110px;
     font-size: 18px;
     font-weight: 900;
 }
@@ -406,13 +415,13 @@ hr{
 
     #login{
         margin-top: 20px;
-        margin-left: 8px;
+        /* margin-left: 8px; */
         width: 320px;
     }
 
     #dont{
-        margin-left: 50px;
-        margin-right: 20px;
+        /* margin-left: 50px;
+        margin-right: 20px; */
     }
      
      #signup{
