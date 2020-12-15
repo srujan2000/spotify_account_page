@@ -1,12 +1,13 @@
 body{
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 #head img{
    margin: auto;
    display: block;
    margin-top: -10px;
-   height: 120px;
+   height: 110px;
    width:200px; 
 }
 
@@ -20,7 +21,7 @@ hr{
 
 .container{
    text-align: center;
-   margin-top: 40px;
+   margin-top: 20px;
    display: grid;
    grid-template-columns: 100%;
 }
@@ -29,7 +30,7 @@ hr{
 .container h1{
     color: #222326;
     font-family: circular-spotify-ui,Helvetica Neue,Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 900;
     line-height: 1.1;
 }
@@ -74,7 +75,7 @@ hr{
 #apple-btn{
     margin: auto;
     width: 450px;
-    margin-top: 20px;
+    margin-top: 10px;
     padding-top: 20px;
     padding-bottom:20px;
     padding-right: 90px;
@@ -115,7 +116,7 @@ hr{
     margin: auto;
     width: 450px;
     height: 58.6px;
-    margin-top: 20px;
+    margin-top: 10px;
     padding-top: 20px;
     padding-bottom:30px;
     padding-right: 60px;
@@ -145,7 +146,7 @@ hr{
 #phone-btn{
     margin: auto;
     width: 450px;
-    margin-top: 20px;
+    margin-top: 10px;
     padding-top: 20px;
     padding-bottom:20px;
     padding-right: 60px;
@@ -168,7 +169,6 @@ hr{
    color: #ffffff;
 }
 
-
 .form{
     text-align: center;
     display: block;
@@ -177,6 +177,8 @@ hr{
 }
 
 .username{
+    text-align: center;
+    margin: auto;
     display: block;
     font-size: 16px;
     line-height: 1.5;
@@ -191,7 +193,7 @@ hr{
     margin-bottom: 10px;
     width: 440px;
     height: 40px;
-    padding-left: 2px;
+    padding-left: 10px;
     font-size: 16px;
     color: #616467;
     border: 1px solid #d9dadc;
@@ -199,7 +201,9 @@ hr{
 }
 
 .password{
+    text-align: center;
     display: block;
+    margin: auto;
     font-size: 16px;
     line-height: 1.5;
     color: #222326;
@@ -212,7 +216,7 @@ hr{
     margin-top: 5px;
     width: 440px;
     height: 40px;
-    padding-left: 2px;
+    padding-left: 10px;
     font-size: 16px;
     margin-bottom: 40px;
     color: #616467;
@@ -220,6 +224,8 @@ hr{
     letter-spacing: 0.3px;
 }
 .forgot{
+    display: block;
+    margin: auto;
     color: #616467;
     text-decoration: underline;
     letter-spacing: 0.5px;
@@ -230,7 +236,8 @@ hr{
 }
 
 .checking{
-    margin-top: 10px;
+    text-align: center;
+    margin-top: 20px;
     font-family: circular-spotify-ui,Helvetica Neue,Helvetica,Arial,sans-serif;
     color: #616467;
     font-size: 16px;
@@ -245,6 +252,7 @@ hr{
 }
 
 #login{
+    text-align: center;
     width: 210px;
     margin-left: 10px;
     border: none;
@@ -257,6 +265,7 @@ hr{
 }
 
 #login a{
+    text-align: center;
     text-decoration: none;
     color: white;
     font-size: 14px;
@@ -272,7 +281,7 @@ hr{
 }
 
 #dont{
-    /* text-align: center; */
+    text-align: center;
     font-family: circular-spotify-ui,Helvetica Neue,Helvetica,Arial,sans-serif;
     margin-top: 40px;
     font-size: 18px;
@@ -281,6 +290,8 @@ hr{
 
 
 #signup{
+    display: block;
+    margin: auto;
     width: 470px;
     border: 2px solid #616467;
     padding: 15px 0px 15px 0px;
