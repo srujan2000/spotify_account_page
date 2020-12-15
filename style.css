@@ -315,38 +315,31 @@ hr{
 
 @media (max-width: 502px) {
     #head img{
-        margin-left: 144px;
         margin-top: -10px;
         height: 80px;
         width: 125px; 
      }
     .container{
-        margin-top: 40px;
-        display: flexbox;
-        flex-direction: column;
-        margin-left: 1px;
-        margin-right: 8px;
+        text-align: center;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 100%;
      }
 
      #facebook-btn{
-         width: 425px;
+         width: 410px;
      }
 
      #apple-btn{
-        width: 425px;
+        width: 410px;
      }
 
      #google-btn{
-        width: 425px;
+        width: 410px;
      }
 
      #phone-btn{
-        width: 425px;
-     }
-
-     .form{
-        margin-left: 8px;
-        margin-right: 8px;
+        width: 410px;
      }
 
      .form-email{
@@ -359,7 +352,8 @@ hr{
 
     #login{
         margin-top: 20px;
-        margin-left: 8px;
+       display: block;
+       margin: auto;
         width: 400px;
     }
      
@@ -371,7 +365,7 @@ hr{
 
   @media only screen and (max-width: 376px) {
     #head img{
-        margin-left: 124px;
+        /* margin-left: 124px; */
         margin-top: -10px;
         height: 80px;
         width: 125px; 
@@ -383,9 +377,9 @@ hr{
         margin-right: 2px;
      }
 
-     .container h1{
+     /* .container h1{
         margin-left: 50px;
-     }
+     } */
 
      #facebook-btn{
          width: 340px;
@@ -411,10 +405,10 @@ hr{
         padding-right: 15px;
      }
 
-     .form{
+     /* .form{
         margin-left: 8px;
         margin-right: 8px;
-     }
+     } */
 
      .form-email{
          width: 320px;
